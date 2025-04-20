@@ -285,7 +285,7 @@ quiz_data = [
         "answer": "Chimpanzini Bananini",
     },
     {
-        "image": "ChatGPT_Image_18_kwi_2025%2C_15_15_47.webp",
+        "image": "images/ChatGPT_Image_18_kwi_2025%2C_15_15_47.webp",
         "options": [
             "Bicicletta Del Gatto Santo",
             "Orangutini Ananasini",
