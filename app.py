@@ -357,9 +357,9 @@ cropped = full_img.crop((x, y, x + cw, y + ch))
 col_img, col_ctrl = st.columns([2, 1])
 
 with col_img:
-    st.image(cropped, use_column_width=True)
+    st.image(cropped, use_container_width=True)
     if st.session_state.show_feedback:
-        st.image(full_img, caption="Full Image", use_column_width=True)
+        st.image(full_img, caption="Full Image", use_container_width=True)
 
 with col_ctrl:
     if not st.session_state.show_feedback:
