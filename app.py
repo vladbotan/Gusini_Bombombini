@@ -7,6 +7,12 @@ import base64
 import streamlit.components.v1 as components
 from gtts import gTTS
 
+st.set_page_config(
+    page_title="Brainrot Quizz",
+    page_icon="😄",
+    layout="wide"
+)
+
 # --- Quiz Data ---
 quiz_data = [
     {
