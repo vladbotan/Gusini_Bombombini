@@ -9,8 +9,7 @@ from gtts import gTTS
 
 st.set_page_config(
     page_title="Brainrot Quizz",
-    page_icon="😄",
-    layout="wide"
+    page_icon="😄"
 )
 
 # --- Quiz Data ---
