@@ -297,7 +297,7 @@ quiz_data = [
 ]
 
 # --- Configurable Crop Size ---
-CROP_W, CROP_H = 300, 300
+CROP_W, CROP_H = 50, 50
 
 # --- Initialize Session State ---
 for key, default in {
